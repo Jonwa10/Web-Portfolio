@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Profile</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="card">
+        <img id="pfp1" src="./pfp.png" alt="Profile Picture" class="profile-pic">
+
+        <h3 id="info">James</h3>
+        <p id="kurso">BS Information Technology</p>
+
+        <label for="brewedCoffee" class="label">Your name:</label>
+        <input type="text" id="brewedCoffee" placeholder="Type your name...">
+
+        <div class="button-row">
+            <button id="btn1">Click</button>
+            <button id="btn2">Double Click</button>
+        </div>
+
+        <label for="coffee1" class="label">Choose your coffee:</label>
+        <select id="coffee1">
+            <option value="">-- Select --</option>
+            <option value="latte">Latte</option>
+            <option value="americano">Americano</option>
+            <option value="cappuccino">Cappuccino</option>
+            <option value="espresso">Espresso</option>
+        </select>
+
+        <label for="blackCoffee" class="label">Isa pang kape:</label>
+        <select id="blackCoffee">
+            <option value="">-- Select --</option>
+            <option value="barako">Barako</option>
+            <option value="kapeng-batangas">Kapeng Batangas</option>
+            <option value="sagada">Sagada Coffee</option>
+        </select>
+
+        <p id="status" class="status">👋 Welcome!</p>
+    </main>
+
+            <!-- Exit Button -->
+            <div style="position: fixed; top: 20px; left: 20px; z-index: 9999;">
+                <button onclick="window.location.href='C:/Users/palab/FINALS WEB/portfolio.html';" style="background-color: #1DB954; color: #000; border: none; padding: 10px 20px; border-radius: 30px; font-family: 'Segoe UI', Arial, sans-serif; font-weight: bold; font-size: 14px; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+                    ← Exit to Portfolio
+                </button>
+            </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
