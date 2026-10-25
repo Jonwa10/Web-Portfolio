@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Added a little bit of basic styling so the layout doesn't break -->
+    <style>
+        .hero {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        .aboutus, .Homebanner, .Contactbanner, .contactus-banner {
+            flex: 1;
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        .aboutus img {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 8px;
+        }
+        nav {
+            background-color: #c8102e;
+            padding: 15px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <strong style="color: #fdb913; font-size: 20px;">Liverpool</strong>
+        <a href="About.html">About</a>
+        <a href="Home.html">Home</a>
+        <a href="Contact Info.html">Contact Info</a>
+        <a href="News.html">News</a> <!-- Fixed text to match the link -->
+    </nav> 
+     
+    <section id="Home" class="hero">
+       
+        <!-- First Box: About Us -->
+        <div class="aboutus">
+            <img src="C:\Users\palab\Downloads\liv.png" alt="Liverpool Logo"> <!-- Fixed image path -->
+            <h2>Liverpool F.C</h2>
+            <p>a professional football club in Liverpool, Merseyside
+               England. The club competes in the Premier League, the top tier
+               of English Football. Founded in 1892</p> <!-- Fixed 1982 to 1892, Liverpool was founded in 1892! -->
+
+            <a href="News.html" class="btn-here">Check Schedule</a>
+        </div>
+
+        <!-- Second Box: Home Schedule -->
+        <div class="Homebanner">
+            <h3>Home</h3>   
+            <!-- Fixed the list tags -->
+            <ul>
+                <li>
+                    <strong>Football Schedule:</strong><br>
+                    Liverpool VS Wrexham<br>
+                    Thur, July 30, 2026
+                </li>
+                <li style="margin-top: 10px;">
+                    Liverpool VS Leeds<br>
+                    Mon, August 3, 2026
+                </li>
+            </ul>
+        </div>
+
+        <!-- Third Box: Contact Info -->
+        <div class="Contactbanner">
+            <h3>Contact Info</h3>
+            <p>Football Club since 1892<br>
+               And the new manager Anoni Iraola</p>
+            <p>Friendly match last sunday against Sunderland
+               a 4 - 2 win by liverpool by the new manager</p>
+        </div>
+
+        <!-- Fourth Box: Contact Us -->
+        <div class="contactus-banner"> <!-- Removed the space in class name -->
+            <h3>Contact Us</h3>
+            <p>It's back the klopp football era is gonna back again?
+               returning of the player from the world cup</p>
+        </div>    
+
+        <!-- Exit Button -->
+<div style="position: fixed; border-right: 20px; left: 20px; z-index: 9999;">
+    <button onclick="window.location.href='C:/Users/palab/FINALS WEB/portfolio.html';" style="background-color: #1DB954; color: #000; border: none; padding: 10px 20px; border-radius: 30px; font-family: 'Segoe UI', Arial, sans-serif; font-weight: bold; font-size: 14px; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: flex; align-items: left; gap: 8px; transition: transform 0.2s;">
+        ← Exit to Portfolio
+    </button>
+</div>
+
+    </section>
+
+    <footer>
+        Contact Info 
+        &nbsp; | &nbsp;
+        Privacy Policy
+        &nbsp; | &nbsp;
+        @Copyright2026 The Liverpool Football Club
+    </footer>    
+
+</body>
+</html>

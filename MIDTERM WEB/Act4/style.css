@@ -1,0 +1,68 @@
+nav{
+    font-size: large;
+    display: flex;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+    background-color:#ffffff;
+    text-decoration: none;
+    gap: 15px;
+    position: sticky;
+    display: block;
+    display: flex;
+    text-align: justify;
+    position: sticky;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+a{
+   text-decoration: none; 
+   
+}
+
+
+img{
+    text-align: center;
+    border-image-width: 50px;
+}
+
+.aboutus{
+    margin: 50px;
+    padding: auto;
+    text-align: center;
+    box-sizing: border-box;
+    border-style: hidden;
+    border-radius: 30px;
+    opacity: 10;
+    background-color: #ffffff;
+}
+.Homebanner{
+    margin: 20px;
+    padding: 50px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: #d00027;
+
+    
+}
+
+
+body{
+    background-color: #d00027;
+}
+
+button{
+    background-color: #f9fd00;
+}
+
+footer{
+    background-color: #ffffff;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+}

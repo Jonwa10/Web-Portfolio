@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LivelPool FC - Simple Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f0f0f0; margin: 20px;">
+
+    <div style="max-width: 600px; margin: 0 auto; background-color: white; border: 2px solid #c8102e;">
+
+        <!-- Header -->
+        <header style="background-color: #c8102e; color: white; text-align: center; padding: 15px;">
+            <h1 style="margin: 0; font-size: 28px;">Liverpool FC</h1>
+            <p style="margin: 5px 0 0 0; font-size: 14px;">Player Form</p>
+        </header>
+
+        <!-- Nav -->
+        <nav style="background-color: #222; text-align: center; padding: 10px;">
+            <a href="home.html" style="color: #fdb913; text-decoration: none; margin: 0 15px;">Home</a>
+            <a href="profile.html" style="color: #fdb913; text-decoration: none; margin: 0 15px;">Profile</a>
+        </nav>
+
+        <!-- Form section -->
+        <section style="padding: 20px; background-color: #fffaf5;">
+            <h2 style="color: #c8102e; border-bottom: 2px solid #c8102e; padding-bottom: 5px; font-size: 20px;">Personal Information</h2>
+
+            <form>
+                <!-- Full Name -->
+                <div style="margin-bottom: 12px;">
+                    <label for="full-name" style="display: block; font-weight: bold; font-size: 14px; margin-bottom: 4px;">Full Name:</label>
+                    <input id="full-name" type="text" placeholder="Enter your name" style="width: 95%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+                </div>
+
+                <!-- Password -->
+                <div style="margin-bottom: 12px;">
+                    <label for="password" style="display: block; font-weight: bold; font-size: 14px; margin-bottom: 4px;">Password:</label>
+                    <input id="password" type="password" style="width: 95%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+                </div>
+
+                <!-- Age -->
+                <div style="margin-bottom: 12px;">
+                    <label for="age" style="display: block; font-weight: bold; font-size: 14px; margin-bottom: 4px;">Age:</label>
+                    <input id="age" type="number" style="width: 95%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+                </div>
+
+                <!-- Email -->
+                <div style="margin-bottom: 12px;">
+                    <label for="email" style="display: block; font-weight: bold; font-size: 14px; margin-bottom: 4px;">Email:</label>
+                    <input id="email" type="email" style="width: 95%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+                </div>
+
+                <!-- Gender -->
+                <div style="margin-bottom: 12px;">
+                    <label style="display: block; font-weight: bold; font-size: 14px; margin-bottom: 4px;">Gender:</label>
+                    <input id="gender__male" type="radio" name="gender">
+                    <label for="gender__male" style="font-size: 14px;">Male</label>
+                    &nbsp;&nbsp;
+                    <input id="gender__female" type="radio" name="gender">
+                    <label for="gender__female" style="font-size: 14px;">Female</label>
+                </div>
+
+                <!-- Player Level -->
+                <div style="margin-bottom: 12px;">
+                    <label for="player-level" style="display: block; font-weight: bold; font-size: 14px; margin-bottom: 4px;">Player Level:</label>
+                    <select id="player-level" style="width: 95%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+                        <option value="beginner">Beginner</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </div>
+
+                <!-- Player Position -->
+                <div style="margin-bottom: 12px;">
+                    <label for="player-position" style="display: block; font-weight: bold; font-size: 14px; margin-bottom: 4px;">Player Position:</label>
+                    <select id="player-position" style="width: 95%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;">
+                        <option value="striker">Striker</option>
+                        <option value="midfielder">Midfielder</option>
+                        <option value="defender">Defender</option>
+                        <option value="goalkeeper">Goalkeeper</option>
+                    </select>
+                </div>
+
+                <!-- Football Skills -->
+                <div style="margin-bottom: 12px;">
+                    <label style="display: block; font-weight: bold; font-size: 14px; margin-bottom: 4px;">Football Skills:</label>
+                    <input id="football-skills__dribbling" type="checkbox">
+                    <label for="football-skills__dribbling" style="font-size: 14px;">Dribbling</label>
+                    &nbsp;&nbsp;
+                    <input id="football-skills__passing" type="checkbox">
+                    <label for="football-skills__passing" style="font-size: 14px;">Passing</label>
+                    &nbsp;&nbsp;
+                    <input id="football-skills__shooting" type="checkbox">
+                    <label for="football-skills__shooting" style="font-size: 14px;">Shooting</label>
+                </div>
+
+                <!-- About Yourself -->
+                <div style="margin-bottom: 12px;">
+                    <label for="about-yourself" style="display: block; font-weight: bold; font-size: 14px; margin-bottom: 4px;">Tell me about yourself:</label>
+                    <textarea id="about-yourself" rows="3" style="width: 95%; padding: 6px; border: 1px solid #ccc; border-radius: 4px;"></textarea>
+                </div>
+
+                <!-- Submit button (simple) -->
+                <div>
+                    <input type="submit" value="Submit" style="background-color: #c8102e; color: white; border: none; padding: 8px 20px; border-radius: 4px; font-size: 14px; cursor: pointer;">
+                </div>
+            </form>
+        </section>
+
+        <!-- Footer -->
+        <footer style="background-color: #222; color: #fdb913; text-align: center; padding: 12px; font-size: 14px;">
+            <p style="margin: 0;">Copyright WEB@2026 CS</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>

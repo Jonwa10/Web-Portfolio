@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liverpool - Contact Info</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+        /* Copying your design */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        nav {
+            background-color: #c8102e;
+            padding: 15px;
+            text-align: left;
+        }
+        nav strong {
+            color: #fdb913;
+            font-size: 20px;
+            margin-right: 20px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #fdb913;
+        }
+        .hero {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+            background-color: #f4f4f4;
+            align-items: flex-start;
+        }
+        .contact-column {
+            flex: 1;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        .contact-column h2 {
+            color: #c8102e;
+            border-bottom: 2px solid #c8102e;
+            padding-bottom: 5px;
+        }
+        .contact-details {
+            margin-bottom: 20px;
+        }
+        /* Form Styles */
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        .contact-form button {
+            background-color: #c8102e;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        .contact-form button:hover {
+            background-color: #a00b24;
+        }
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- Navigation Bar -->
+    <nav>
+        <strong>Liverpool</strong>
+        <a href="About.html">About</a>
+        <a href="Home.html">Home</a>
+        <a href="Contact Info.html">Contact Info</a>
+        <a href="News.html">News</a>
+    </nav> 
+     
+    <!-- Main Content -->
+    <section class="hero">
+       
+        <!-- Left Column: Contact Details -->
+        <div class="contact-column">
+            <h2>Get in Touch</h2>
+            <div class="contact-details">
+                <p><strong>📍 Stadium Address:</strong><br>
+                Anfield Road, Liverpool, L4 0TH, United Kingdom</p>
+                
+                <p><strong>📞 Phone Number:</strong><br>
+                +44 151 260 1431</p>
+                
+                <p><strong>✉️ Email:</strong><br>
+                info@liverpoolfc.com</p>
+                
+                <p><strong>🕒 Office Hours:</strong><br>
+                Monday - Friday: 9:00 AM - 5:00 PM</p>
+            </div>
+        </div>
+
+        <!-- Right Column: Contact Form -->
+        <div class="contact-column">
+            <h2>Send Us a Message</h2>
+            <form class="contact-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" rows="4" placeholder="How can we help you?" required></textarea>
+
+                <button type="submit">Submit Message</button>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        Contact Info 
+        &nbsp; | &nbsp;
+        Privacy Policy
+        &nbsp; | &nbsp;
+        @Copyright2026 The Liverpool Football Club
+    </footer>    
+
+</body>
+</html>

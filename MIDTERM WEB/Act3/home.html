@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<style>
+body{
+    font-family: cursive, sans-serif;
+    background-color: #b17575;
+    margin: 20px;
+}
+Header{
+    background-color: #c8102e;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+nav{
+    background-color: #927474;
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    background-color: #927474;
+    text-align: center;
+    clear: both;
+}
+section {
+    padding: 20px;
+    background-color: #977049;
+    display: flex;
+    gap: 20px; /* This creates the space between the two boxes */
+}
+
+section .content1 {
+    background-color: #e8d5b5; /* Light color so the rounded corners show */
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1; /* Makes both boxes take up equal space */
+    display: flex;
+    flex-direction: column;
+}
+
+section .content2 {
+    background-color: #e8d5b5; /* Light color so the rounded corners show */
+    padding: 15px;
+    border-radius: 10px;
+    flex: 1;
+}
+
+</style>
+
+<body>
+
+    <div class="Header"> 
+        <header>
+            <h1 class="header_text"> My Personal  Website </h1>
+            <p class="header_text"> Hello Welcome to my Website</p>
+        </header>
+    </div>
+
+    <div class="nav"> 
+        <nav> 
+            <a href="home.html"> Home </a>
+             &nbsp;
+            <a  href="Registration.html" > Registration </a>
+             &nbsp;
+            <a href="Grades.html"> Grades </a>
+             &nbsp;
+            <a href="profile.html"> Profile</a>
+        </nav>
+    </div>  
+   
+   <section class="section">
+            <div class="content1">
+            <h3>   Welcome </h3>
+            <p> This is website for practice only this is not the ahsdfys </p>
+            </div>
+
+            <div class="content2">
+            <p> Announcement </p>
+            <ul> 
+                <li> Lab Exam</li>
+                <li>Itest</li>
+                <li> Activity </li>
+                <li> Nav </li>
+            </ul>
+                   
+                   </div>
+        </section>
+        
+    <!-- Exit Button -->
+<div style="position: fixed; top: 20px; left: 20px; z-index: 9999;">
+    <button onclick="window.location.href='C:/Users/palab/FINALS WEB/portfolio.html';" style="background-color: #1DB954; color: #000; border: none; padding: 10px 20px; border-radius: 30px; font-family: 'Segoe UI', Arial, sans-serif; font-weight: bold; font-size: 14px; cursor: pointer; box-shadow: 0 4px 12px rgba(0,0,0,0.3); display: flex; align-items: center; gap: 8px; transition: transform 0.2s;">
+        ← Exit to Portfolio
+    </button>
+</div>
+
+    <div class="footer"> 
+        <footer>
+            <p> Copy right 2020 Personal website </p>
+        </footer>
+    </div>
+
+
+    
+</body>
+</html>
